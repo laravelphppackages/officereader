@@ -1,0 +1,26 @@
+{
+    "name": "laravelphp/officereade",
+    "description": "Package Courier for Reading Microsoft Office Files for Use in delivery service Larval programs",
+    "autoload": {
+        "psr-4": {
+            "Laravelphp\\Officereade\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mostafa Sharami",
+            "email": "Mostafa.Sharami@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laravelphp\\Officereade\\Providers\\OfficeReaderServiceProvider"
+            ]
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^8.0"
+    }
+}
